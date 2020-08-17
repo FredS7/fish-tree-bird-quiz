@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fish-tree-bird-quiz/precache-manifest.d49b22bc323ce7bd7414395df8db5332.js"
+  "/fish-tree-bird-quiz/precache-manifest.55bca17815a1dd64c125f2524c06d601.js"
 );
 
 self.addEventListener('message', (event) => {
