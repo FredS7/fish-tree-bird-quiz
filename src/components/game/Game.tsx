@@ -13,29 +13,29 @@ import { rootState } from '../../store/root/types'
 import { INCREASE_SCORE, GET_NEXT_QUESTION, REMOVE_LIFE, RESET_GAME_STATE} from '../../store/game/types'
 
 const wrongSounds = [
-  new Audio('/sounds/wrong/wrong_1.mp3'),
-  new Audio('/sounds/wrong/wrong_2.mp3'),
-  new Audio('/sounds/wrong/wrong_3.mp3'),
-  new Audio('/sounds/wrong/wrong_4.mp3'),
-  new Audio('/sounds/wrong/wrong_5.mp3')
+  new Audio(process.env.PUBLIC_URL + '/sounds/wrong/wrong_1.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/wrong/wrong_2.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/wrong/wrong_3.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/wrong/wrong_4.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/wrong/wrong_5.mp3')
 ]
 
 const retrySounds = [
-  new Audio('/sounds/retry/retry_1.mp3')
+  new Audio(process.env.PUBLIC_URL + '/sounds/retry/retry_1.mp3')
 ]
 
 const victorySounds = [
-  new Audio('/sounds/victory/victory_1.mp3'),
-  new Audio('/sounds/victory/victory_2.mp3'),
-  new Audio('/sounds/victory/victory_3.mp3')
+  new Audio(process.env.PUBLIC_URL + '/sounds/victory/victory_1.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/victory/victory_2.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/victory/victory_3.mp3')
 ]
 
 const gameOverSounds = [
-  new Audio('sounds/game_over/game_over_1.mp3'),
-  new Audio('sounds/game_over/game_over_2.mp3'),
-  new Audio('sounds/game_over/game_over_3.mp3'),
-  new Audio('sounds/game_over/game_over_4.mp3'),
-  new Audio('sounds/game_over/game_over_5.mp3')
+  new Audio(process.env.PUBLIC_URL + '/sounds/game_over/game_over_1.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/game_over/game_over_2.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/game_over/game_over_3.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/game_over/game_over_4.mp3'),
+  new Audio(process.env.PUBLIC_URL + '/sounds/game_over/game_over_5.mp3')
 ]
 
 const Game = () => {
@@ -65,7 +65,7 @@ const Game = () => {
       } else {
         playRandomSound(gameOverSounds)
       }
-      //dispatch({type: REMOVE_LIFE})
+      dispatch({type: REMOVE_LIFE})
     }
     if (gameState.questions.length === gameState.currentQuestionIndex + 1 && gameState.lifes > 0) {
       playRandomSound(victorySounds)

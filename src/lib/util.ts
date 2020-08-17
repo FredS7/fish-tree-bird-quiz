@@ -1,5 +1,3 @@
-import listReactFiles from 'list-react-files'
-
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 export const shuffle = (array: any[]) => {
@@ -21,16 +19,4 @@ export const shuffle = (array: any[]) => {
   }
 
   return array
-}
-
-export const playRandomSound = (soundType: string) => {
-
-  switch(soundType) {
-
-    case 'wrong':
-      console.log(listReactFiles('../data/sounds/wrong'))
-      break
-
-  }
-
 }

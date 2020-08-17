@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const SRC = path.resolve(__dirname, 'node_modules');
 const webpack = require('webpack');
 const resolve = require('resolve');
 const PnpWebpackPlugin = require('pnp-webpack-plugin');
@@ -342,6 +343,11 @@ module.exports = function(webpackEnv) {
             },
           ],
           include: paths.appSrc,
+        },
+        {
+          test: /\.mp3$/,
+          include: SRC,
+          loader: 'file-loader'
         },
         {
           // "oneOf" will traverse all following loaders until one will
