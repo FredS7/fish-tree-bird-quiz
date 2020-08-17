@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/fish-tree-bird-quiz/static/css/main.5f361e03.chunk.css",
-    "main.js": "/fish-tree-bird-quiz/static/js/main.11e9204f.chunk.js",
-    "main.js.map": "/fish-tree-bird-quiz/static/js/main.11e9204f.chunk.js.map",
-    "runtime-main.js": "/fish-tree-bird-quiz/static/js/runtime-main.70773b64.js",
-    "runtime-main.js.map": "/fish-tree-bird-quiz/static/js/runtime-main.70773b64.js.map",
-    "static/js/2.853197b2.chunk.js": "/fish-tree-bird-quiz/static/js/2.853197b2.chunk.js",
-    "static/js/2.853197b2.chunk.js.map": "/fish-tree-bird-quiz/static/js/2.853197b2.chunk.js.map",
+    "main.css": "/fish-tree-bird-quiz/static/css/main.0ba2c653.chunk.css",
+    "main.js": "/fish-tree-bird-quiz/static/js/main.d035379f.chunk.js",
+    "main.js.map": "/fish-tree-bird-quiz/static/js/main.d035379f.chunk.js.map",
+    "runtime-main.js": "/fish-tree-bird-quiz/static/js/runtime-main.b2e90084.js",
+    "runtime-main.js.map": "/fish-tree-bird-quiz/static/js/runtime-main.b2e90084.js.map",
+    "static/js/2.229b58f9.chunk.js": "/fish-tree-bird-quiz/static/js/2.229b58f9.chunk.js",
+    "static/js/2.229b58f9.chunk.js.map": "/fish-tree-bird-quiz/static/js/2.229b58f9.chunk.js.map",
     "index.html": "/fish-tree-bird-quiz/index.html",
-    "precache-manifest.17f057f9a0fd97f33fda20f94d6fc5f1.js": "/fish-tree-bird-quiz/precache-manifest.17f057f9a0fd97f33fda20f94d6fc5f1.js",
+    "precache-manifest.d49b22bc323ce7bd7414395df8db5332.js": "/fish-tree-bird-quiz/precache-manifest.d49b22bc323ce7bd7414395df8db5332.js",
     "service-worker.js": "/fish-tree-bird-quiz/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/fish-tree-bird-quiz/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.853197b2.chunk.js.LICENSE.txt": "/fish-tree-bird-quiz/static/js/2.853197b2.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/fish-tree-bird-quiz/static/media/logo.5d5d9eef.svg"
+    "static/css/main.0ba2c653.chunk.css.map": "/fish-tree-bird-quiz/static/css/main.0ba2c653.chunk.css.map",
+    "static/js/2.229b58f9.chunk.js.LICENSE.txt": "/fish-tree-bird-quiz/static/js/2.229b58f9.chunk.js.LICENSE.txt",
+    "static/media/bird.png": "/fish-tree-bird-quiz/static/media/bird.8f93aab9.png",
+    "static/media/fish.png": "/fish-tree-bird-quiz/static/media/fish.482e093c.png",
+    "static/media/life.png": "/fish-tree-bird-quiz/static/media/life.ad1ab079.png",
+    "static/media/lost_life.png": "/fish-tree-bird-quiz/static/media/lost_life.ae020acc.png",
+    "static/media/tree.png": "/fish-tree-bird-quiz/static/media/tree.f13684d3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.70773b64.js",
-    "static/js/2.853197b2.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.11e9204f.chunk.js"
+    "static/js/runtime-main.b2e90084.js",
+    "static/js/2.229b58f9.chunk.js",
+    "static/css/main.0ba2c653.chunk.css",
+    "static/js/main.d035379f.chunk.js"
   ]
 }
