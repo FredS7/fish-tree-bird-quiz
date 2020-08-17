@@ -1,0 +1,36 @@
+button.game-button > img {
+  visibility: hidden;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+button.game-button:hover > img {
+  visibility: visible;
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.6;
+}
+
+button.game-button {
+  height: 200px;
+  width: 400px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.game-button > p {
+  position: absolute;
+  color: white;
+  visibility: visible;
+}
+
+button.game-button:hover > p {
+  position: absolute;
+  visibility: hidden;
+}
+
+img.life-image {
+  max-height: 50px;
+  max-width: 50px;
+}
