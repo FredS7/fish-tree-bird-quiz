@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ba2c653.chunk.css",
-    "main.js": "/static/js/main.6e2ed8d2.chunk.js",
-    "main.js.map": "/static/js/main.6e2ed8d2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0200648d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0200648d.js.map",
-    "static/js/2.7bc6d5ae.chunk.js": "/static/js/2.7bc6d5ae.chunk.js",
-    "static/js/2.7bc6d5ae.chunk.js.map": "/static/js/2.7bc6d5ae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.eee6a5137b29fe7c8e578d5153ce097b.js": "/precache-manifest.eee6a5137b29fe7c8e578d5153ce097b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0ba2c653.chunk.css.map": "/static/css/main.0ba2c653.chunk.css.map",
-    "static/js/2.7bc6d5ae.chunk.js.LICENSE.txt": "/static/js/2.7bc6d5ae.chunk.js.LICENSE.txt",
-    "static/media/bird.png": "/static/media/bird.8f93aab9.png",
-    "static/media/fish.png": "/static/media/fish.482e093c.png",
-    "static/media/life.png": "/static/media/life.ad1ab079.png",
-    "static/media/lost_life.png": "/static/media/lost_life.ae020acc.png",
-    "static/media/tree.png": "/static/media/tree.f13684d3.png"
+    "main.css": "/fish-tree-bird-quiz/static/css/main.0ba2c653.chunk.css",
+    "main.js": "/fish-tree-bird-quiz/static/js/main.a0931810.chunk.js",
+    "main.js.map": "/fish-tree-bird-quiz/static/js/main.a0931810.chunk.js.map",
+    "runtime-main.js": "/fish-tree-bird-quiz/static/js/runtime-main.70773b64.js",
+    "runtime-main.js.map": "/fish-tree-bird-quiz/static/js/runtime-main.70773b64.js.map",
+    "static/js/2.7bc6d5ae.chunk.js": "/fish-tree-bird-quiz/static/js/2.7bc6d5ae.chunk.js",
+    "static/js/2.7bc6d5ae.chunk.js.map": "/fish-tree-bird-quiz/static/js/2.7bc6d5ae.chunk.js.map",
+    "index.html": "/fish-tree-bird-quiz/index.html",
+    "precache-manifest.55bca17815a1dd64c125f2524c06d601.js": "/fish-tree-bird-quiz/precache-manifest.55bca17815a1dd64c125f2524c06d601.js",
+    "service-worker.js": "/fish-tree-bird-quiz/service-worker.js",
+    "static/css/main.0ba2c653.chunk.css.map": "/fish-tree-bird-quiz/static/css/main.0ba2c653.chunk.css.map",
+    "static/js/2.7bc6d5ae.chunk.js.LICENSE.txt": "/fish-tree-bird-quiz/static/js/2.7bc6d5ae.chunk.js.LICENSE.txt",
+    "static/media/bird.png": "/fish-tree-bird-quiz/static/media/bird.8f93aab9.png",
+    "static/media/fish.png": "/fish-tree-bird-quiz/static/media/fish.482e093c.png",
+    "static/media/life.png": "/fish-tree-bird-quiz/static/media/life.ad1ab079.png",
+    "static/media/lost_life.png": "/fish-tree-bird-quiz/static/media/lost_life.ae020acc.png",
+    "static/media/tree.png": "/fish-tree-bird-quiz/static/media/tree.f13684d3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0200648d.js",
+    "static/js/runtime-main.70773b64.js",
     "static/js/2.7bc6d5ae.chunk.js",
     "static/css/main.0ba2c653.chunk.css",
-    "static/js/main.6e2ed8d2.chunk.js"
+    "static/js/main.a0931810.chunk.js"
   ]
 }
